@@ -3,7 +3,7 @@
 > **PLEASE NOTE** From version 2.0.0 onwards, `posthog-node` is now based on our [TypeScript Core](https://github.com/PostHog/posthog-js-lite/tree/master/posthog-node). For development or issues please [go to the new project](https://github.com/PostHog/posthog-js-lite/tree/master/posthog-node)
 
 
-> For version 1.x.x users you can check out the branch `v1` of this repository.
+> For version 1.x.x users you can check out the branch `v1` of this repository.  
 > **PLEASE NOTE**: ⚠️ Version 1.x.x of the library is now deprecated.
 
 
