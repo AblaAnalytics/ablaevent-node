@@ -7,7 +7,7 @@ import PostHog from 'posthog-node'
 const posthog = new PostHog(
     "", // project API key
     {
-        host: "https://app.posthog.com", // You can omit this line if using PostHog Cloud
+        host: "https://e.abla.io", // You can omit this line if using PostHog Cloud
         personalApiKey: "" // You can find this in your user settings
     }
 )

@@ -22,7 +22,7 @@ class PostHog {
      * @param {Object} [options] (optional)
      *   @property {Number} flushAt (default: 20)
      *   @property {Number} flushInterval (default: 10000)
-     *   @property {String} host (default: 'https://app.posthog.com')
+     *   @property {String} host (default: 'https://e.abla.io')
      *   @property {Boolean} enable (default: true)
      *   @property {String} featureFlagsPollingInterval (default: 300000)
      *   @property {String} personalApiKey
@@ -35,7 +35,7 @@ class PostHog {
 
         this.queue = []
         this.apiKey = apiKey
-        this.host = removeSlash(options.host || 'https://app.posthog.com')
+        this.host = removeSlash(options.host || 'https://e.abla.io')
         this.timeout = options.timeout || false
         this.flushAt = Math.max(options.flushAt, 1) || 20
         this.flushInterval = typeof options.flushInterval === 'number' ? options.flushInterval : 10000
