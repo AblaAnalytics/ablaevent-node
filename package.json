@@ -1,9 +1,9 @@
 {
-    "name": "posthog-node",
+    "name": "ablaevent-node",
     "version": "1.3.0",
-    "description": "PostHog Node.js integration",
+    "description": "Ablaevent Node.js integration",
     "license": "MIT",
-    "repository": "PostHog/posthog-node",
+    "repository": "AblaAnalytics/ablaevent-node",
     "author": {
         "name": "PostHog",
         "email": "hey@posthog.com",
